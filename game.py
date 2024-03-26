@@ -7,8 +7,8 @@ class GameState:
 
 class Action:
     def __init__(self, dx, dy):
-        self.dx = dx  # Deslocamento em x
-        self.dy = dy  # Deslocamento em y
+        self.dx = dx 
+        self.dy = dy  
 
 class CostData:
     def __init__(self, actual_cost, estimated_cost):
